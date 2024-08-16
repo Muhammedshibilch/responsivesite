@@ -1,0 +1,168 @@
+/* General Styles */
+/* body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+} */
+.nav-item:hover{
+    text-decoration:underline;
+
+/* Navbar */
+.navbar-nav .nav-link {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.y{
+    color: rgb(54, 4, 4);
+    font-weight: 600;
+    margin-top: -300px;
+    font-size: 4rem;
+}
+.t{
+    color: rgb(54, 4, 4);
+    font-weight: 600;
+    font-size: 4rem;
+} 
+
+.navbar-toggler {
+    border: none;
+}
+
+/* Carousel */
+.carousel-inner img {
+    max-height: 500px; /* Adjust for mobile screens */
+    object-fit: cover;
+}
+
+/* Button Styles */
+.button {
+    /* width: 100%;
+    max-width: 300px;
+    padding: 12px;
+    font-size: 1rem;
+    margin: 0 auto;
+    display: block;
+    text-align: center; */
+    border-radius: 12px;
+    background-color: whitesmoke;
+    color: black;
+    padding: 10px 10px;
+    font-size: 13px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    width: 200px;
+}
+
+/* Facilities Section */
+.o {
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+#f, #g {
+    text-align: center;
+}
+
+/* About Section */
+.n {
+    padding: 20px;
+}
+
+.uu {
+    text-align: center;
+}
+
+#yy {
+    margin-top: 20px;
+    font-size: small;
+    text-align: center;
+}
+
+/* Custom Child Classes */
+.parent {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.parent i {
+    width: 50px;
+}
+
+.vv, .oo {
+    text-align: center;
+}
+
+/* Call to Action */
+.cc {
+    /* width: 100%;
+    max-width: 300px;
+    padding: 15px;
+    margin: 0 auto; */
+    border-radius: 12px;
+    font-size: 2rem;
+    background-color: red;
+    padding: 10px 50px;
+    font-weight: 700;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+/* Footer */
+.contain {
+    padding: 20px;
+}
+
+.bb {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .navbar-brand {
+        font-size: 1.5rem;
+    }
+
+    .nav-item {
+        margin-bottom: 10px;
+    }
+
+    .carousel-caption h1, .carousel-caption h2 {
+        font-size: 2rem;
+        margin-top: 0;
+    }
+
+    .button {
+        padding: 8px;
+        font-size: 1rem;
+    }
+
+    .parent {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .carousel-caption h1, .carousel-caption h2 {
+        font-size: 1.5rem;
+    }
+
+    .button {
+        font-size: 0.9rem;
+        padding: 6px;
+    }
+
+    .parent i {
+        width: 40px;
+    }
+
+    .tt {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .contain {
+        height: auto;
+    }
+}
